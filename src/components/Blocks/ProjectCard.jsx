@@ -1,5 +1,16 @@
 import { ArrowUpRight, Globe, Eye } from "lucide-react";
-const ProjectCard = ({ project, onSelect }) => {
+import { trackClick } from "@/lib/clickTracker";
+
+const ProjectCard = ({ project, onSelect, source = "home" }) => {
+  const handleCaseStudyClick = () => {
+    trackClick("project", project.title, source);
+    onSelect?.(project);
+  };
+
+  const handleLiveLinkClick = () => {
+    trackClick("project", project.title, source);
+  };
+
   return (
     <div
       className="
@@ -93,7 +104,7 @@ const ProjectCard = ({ project, onSelect }) => {
 
             <div className="mt-8 flex gap-3">
               <button
-                onClick={() => onSelect?.(project)}
+                onClick={handleCaseStudyClick}
                 className="
                   inline-flex items-center gap-2
                   rounded-full bg-primary px-5 py-3
@@ -109,6 +120,7 @@ const ProjectCard = ({ project, onSelect }) => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleLiveLinkClick}
                 className="
                   inline-flex h-12 w-12 items-center justify-center
                   rounded-full border border-white/20 bg-white/10

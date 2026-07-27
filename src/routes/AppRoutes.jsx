@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
+import AdminAnalytics from "@/pages/AdminAnalytics";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="services" element={<Services />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="/admin-3391" element={<AdminAnalytics />} />
       </Route>
     </Routes>
   );

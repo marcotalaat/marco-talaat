@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X, Menu, Sparkles, Mail, Linkedin, Github } from "lucide-react";
+import { trackClick } from "@/lib/clickTracker";
 
 import logo from "../../assets/images/marco-white.png";
 import logoDark from "../../assets/images/marco-logo-dark.svg";
@@ -14,6 +15,14 @@ const navLinks = [
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleNavClick = (label) => {
+    trackClick("nav", label);
+  };
+
+  const handleHireMeClick = () => {
+    trackClick("nav", "Hire Me");
+  };
 
   return (
     <>
@@ -41,6 +50,7 @@ const Navbar = () => {
               <li key={link.label}>
                 <a
                   href={link.href}
+                  onClick={() => handleNavClick(link.label)}
                   className="
           relative
           inline-block
@@ -71,6 +81,7 @@ const Navbar = () => {
           <div className="flex justify-end">
             <a
               href="/contact"
+              onClick={handleHireMeClick}
               className="
                 main-btn
                 px-6 py-2
@@ -211,7 +222,10 @@ const Navbar = () => {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    onClick={() => setMobileMenuOpen(false)}
+                    onClick={() => {
+                      handleNavClick(link.label);
+                      setMobileMenuOpen(false);
+                    }}
                     className="text-3xl font-bold text-white hover:text-primary transition-colors"
                   >
                     {link.label}
@@ -276,7 +290,10 @@ const Navbar = () => {
 
             <a
               href="/contact"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={() => {
+                handleHireMeClick();
+                setMobileMenuOpen(false);
+              }}
               className="
                 block text-center
                 px-8 py-4
