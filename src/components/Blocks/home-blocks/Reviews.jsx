@@ -172,7 +172,7 @@ const HomeReviews = () => {
           </div>
 
           {/* Deck counter */}
-          <div className="mt-8 text-center">
+          <div className="mt-16 md:mt-8 text-center">
             <span className="text-sm text-gray-500 font-medium tabular-nums">
               {String(index + 1).padStart(2, "0")} /{" "}
               {String(total).padStart(2, "0")}
