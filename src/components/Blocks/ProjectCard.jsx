@@ -90,7 +90,7 @@ const ProjectCard = ({ project, onSelect, source = "home" }) => {
               transition-all duration-500
             "
           >
-            <span className="inline-block rounded-full border border-primary px-3 py-1 text-xs uppercase tracking-widest text-primary">
+            <span className="inline-block rounded-full border border-white px-3 py-1 text-xs uppercase tracking-widest text-white">
               {project.category}
             </span>
 
