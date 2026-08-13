@@ -41,14 +41,20 @@ const HomeReviews = () => {
               onClick={goPrev}
               aria-label="Previous review"
               className="
-                absolute left-0 top-1/2 -translate-y-1/2 z-20
-                w-14 h-14 rounded-2xl
-                bg-primary border border-primary
-                backdrop-blur-sm
-                flex items-center justify-center
-                text-white
-                hover:-translate-x-1
-                transition-all duration-300
+                  absolute left-0 top-1/2
+                  -translate-y-1/2
+                  z-20
+                  w-14 h-14 rounded-2xl
+                  bg-primary border border-primary
+                  backdrop-blur-sm
+                  flex items-center justify-center
+                  text-white
+                  hover:-translate-x-1
+                  transition-all duration-300
+
+                  max-md:top-auto
+                  max-md:bottom-[-100px]
+                  max-md:translate-y-0
               "
             >
               <ChevronLeft size={22} />
@@ -59,14 +65,20 @@ const HomeReviews = () => {
               onClick={goNext}
               aria-label="Next review"
               className="
-                absolute right-0 top-1/2 -translate-y-1/2 z-20
-                w-14 h-14 rounded-2xl
-                bg-primary border border-primary
-                backdrop-blur-sm
-                flex items-center justify-center
-                text-white
-                hover:translate-x-1
-                transition-all duration-300
+                    absolute right-0 top-1/2
+                    -translate-y-1/2
+                    z-20
+                    w-14 h-14 rounded-2xl
+                    bg-primary border border-primary
+                    backdrop-blur-sm
+                    flex items-center justify-center
+                    text-white
+                    hover:translate-x-1
+                    transition-all duration-300
+
+                    max-md:top-auto
+                    max-md:bottom-[-100px]
+                    max-md:translate-y-0
               "
             >
               <ChevronRight size={22} />
