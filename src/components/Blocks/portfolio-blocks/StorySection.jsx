@@ -97,7 +97,7 @@ const StorySection = () => {
                       {project.category}
                     </span>
 
-                    <h3 className="mt-4 text-3xl font-bold text-white">
+                    <h3 className="mt-4 text-xl font-bold text-white">
                       {project.title}
                     </h3>
 
