@@ -43,7 +43,9 @@ const Navbar = () => {
             shadow-[0_20px_60px_rgba(0,0,0,.1)]
           "
         >
-          <img src={logoDark} alt="Marco Talaat" className="h-8 w-auto" />
+          <a href="/">
+            <img src={logoDark} alt="Marco Talaat" className="h-8 w-auto" />
+          </a>
 
           <ul className="flex gap-10">
             {navLinks.map((link) => (
