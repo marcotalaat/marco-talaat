@@ -117,7 +117,7 @@ const ProjectCard = ({ project, onSelect, source = "home" }) => {
               </button>
 
               <a
-                href={project.link}
+                href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleLiveLinkClick}
