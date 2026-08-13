@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const SITE_URL = "https://marcotalaat.com"; // swap for your real domain
+const SITE_URL = "https://marco-talaat.vercel.app/"; // swap for your real domain
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`; // add a 1200x630 preview image later
 
 const SEO = ({ title, description, path = "", image = DEFAULT_IMAGE }) => {
