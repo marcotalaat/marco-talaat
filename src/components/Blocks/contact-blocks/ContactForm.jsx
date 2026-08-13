@@ -14,7 +14,7 @@ import { Loader2, CheckCircle2, XCircle } from "lucide-react";
  *    Template ID, and Public Key (found in EmailJS dashboard > Account > API Keys).
  */
 const SERVICE_ID = "service_vagt0pn";
-const TEMPLATE_ID = "template_f911hdt";
+const TEMPLATE_ID = "template_alfunel";
 const PUBLIC_KEY = "olmh400L2LdpnRI3v";
 
 const ContactForm = () => {
