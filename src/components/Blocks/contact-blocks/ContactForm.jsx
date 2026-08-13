@@ -13,9 +13,9 @@ import { Loader2, CheckCircle2, XCircle } from "lucide-react";
  * 4. Replace the three placeholders below with your real Service ID,
  *    Template ID, and Public Key (found in EmailJS dashboard > Account > API Keys).
  */
-const SERVICE_ID = "service_vagt0pn";
-const TEMPLATE_ID = "template_alfunel";
-const PUBLIC_KEY = "olmh400L2LdpnRI3v";
+const SERVICE_ID = "service_m3plggo";
+const TEMPLATE_ID = "template_v3u6w7r";
+const PUBLIC_KEY = "hxu2ONt1Y3Dk1dmLG";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
