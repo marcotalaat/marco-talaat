@@ -1,0 +1,41 @@
+# Marco Talaat
+
+Marco Talaat is a PHP, WordPress, WooCommerce, Laravel, and React developer based in Cairo, Egypt.
+
+## Website
+
+- [Home](https://marco-talaat.vercel.app/)
+- [About](https://marco-talaat.vercel.app/about)
+- [Portfolio](https://marco-talaat.vercel.app/portfolio)
+- [Services](https://marco-talaat.vercel.app/services)
+- [Contact](https://marco-talaat.vercel.app/contact)
+
+## About
+
+- [About Marco Talaat](https://marco-talaat.vercel.app/about)
+
+## Portfolio
+
+- [Portfolio Projects](https://marco-talaat.vercel.app/portfolio)
+
+## Services
+
+- [Development Services](https://marco-talaat.vercel.app/services)
+
+## Contact
+
+- [Contact Marco Talaat](https://marco-talaat.vercel.app/contact)
+
+## Technology
+
+Marco Talaat works primarily with:
+
+- PHP
+- WordPress
+- WooCommerce
+- Laravel
+- React
+- JavaScript
+- Tailwind CSS
+- MySQL
+- ACF
