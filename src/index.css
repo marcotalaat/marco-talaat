@@ -37,7 +37,10 @@
   --link-hover: #2C9A74;      /* Brighter mint hover */
   --radius: 10px;
 }
-
+html {
+  @apply font-sans;
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Ibrand', sans-serif;
   margin: 0;
