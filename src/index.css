@@ -4,7 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
+/*@font-face {
   font-family: 'Ibrand';
   src: url('./assets/fonts/Ibrand.woff') format('woff2'),
        url('./assets/fonts/Ibrand.woff') format('woff'),
@@ -12,6 +12,14 @@
        url('./assets/fonts/Ibrand.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+}*/
+
+@font-face {
+  font-family: "Ibrand";
+  src: url("./assets/fonts/Ibrand.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 :root {
   /* 🎨 Brand & Theme Colors */
