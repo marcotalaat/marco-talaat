@@ -15,17 +15,17 @@ import {
 import { SiTailwindcss, SiMysql, SiWoocommerce } from "react-icons/si";
 
 const skills = [
-  { icon: <FaPhp />, name: "PHP" },
-  { icon: <FaWordpress />, name: "WordPress" },
-  { icon: <FaReact />, name: "React" },
-  { icon: <FaLaravel />, name: "Laravel" },
-  { icon: <FaElementor />, name: "Elementor" },
-  { icon: <SiWoocommerce />, name: "WooCommerce" },
-  { icon: <FaJs />, name: "JavaScript" },
-  { icon: <SiTailwindcss />, name: "Tailwind" },
-  { icon: <SiMysql />, name: "MySQL" },
-  { icon: <FaHtml5 />, name: "HTML5" },
-  { icon: <FaCss3Alt />, name: "CSS3" },
+  { icon: FaPhp, name: "PHP" },
+  { icon: FaWordpress, name: "WordPress" },
+  { icon: FaReact, name: "React" },
+  { icon: FaLaravel, name: "Laravel" },
+  { icon: FaElementor, name: "Elementor" },
+  { icon: SiWoocommerce, name: "WooCommerce" },
+  { icon: FaJs, name: "JavaScript" },
+  { icon: SiTailwindcss, name: "Tailwind" },
+  { icon: SiMysql, name: "MySQL" },
+  { icon: FaHtml5, name: "HTML5" },
+  { icon: FaCss3Alt, name: "CSS3" },
 ];
 
 const HomeHero = () => {
@@ -56,20 +56,28 @@ const HomeHero = () => {
         </p>
       </div>
 
+      {/* SKILLS MARQUEE */}
       <div className="relative py-8 mb-28 border-y border-neutral-200 overflow-hidden">
         <div className="marquee flex gap-12 items-center">
-          {[...skills, ...skills].map((skill, index) => (
-            <div
-              key={index}
-              className="flex items-center gap-3 text-neutral-700 shrink-0"
-            >
-              <span className="text-3xl text-primary">{skill.icon}</span>
+          {[...skills, ...skills].map((skill, index) => {
+            const Icon = skill.icon;
 
-              <span className="text-lg font-medium whitespace-nowrap">
-                {skill.name}
-              </span>
-            </div>
-          ))}
+            return (
+              <div
+                key={`${skill.name}-${index}`}
+                className="flex items-center gap-3 text-neutral-700 shrink-0"
+              >
+                {/* Decorative icon - skill name provides the accessible text */}
+                <span className="text-3xl text-primary" aria-hidden="true">
+                  <Icon />
+                </span>
+
+                <span className="text-lg font-medium whitespace-nowrap">
+                  {skill.name}
+                </span>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
