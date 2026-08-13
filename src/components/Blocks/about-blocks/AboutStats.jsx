@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Briefcase, Users, FolderCheck, Clock } from "lucide-react";
 
-import PaperTexture from "@/assets/images/texture/PK_PAPER_12.jpg";
+import PaperTexture from "@/assets/images/texture/PK_PAPER_12.webp";
 
 const stats = [
   { icon: Briefcase, value: 5, suffix: "+", label: "Years Experience" },

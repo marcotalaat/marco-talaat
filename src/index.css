@@ -38,7 +38,7 @@ body {
   /* Textured background image + subtle white overlay */
   background: 
     linear-gradient(rgba(255,255,255,0.80), rgba(255, 255, 255, 0.80)),
-    url('/src/assets/images/texture/PK_PAPER_12.jpg');
+    url('/src/assets/images/texture/PK_PAPER_12.webp');
   background-size: cover;
   /* background-attachment: fixed; */
   transition: background 0.4s ease, color 0.3s ease;

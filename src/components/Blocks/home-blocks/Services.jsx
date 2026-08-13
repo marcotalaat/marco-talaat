@@ -1,6 +1,6 @@
 import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
-import ServicesBkg from "../../../assets/images/texture/PK_PAPER_12.jpg";
-import PaperTexture from "../../../assets/images/texture/PK_PAPER_12.jpg";
+import ServicesBkg from "../../../assets/images/texture/PK_PAPER_12.webp";
+import PaperTexture from "../../../assets/images/texture/PK_PAPER_12.webp";
 
 const servicesList = [
   {
