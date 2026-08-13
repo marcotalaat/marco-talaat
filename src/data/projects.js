@@ -10,7 +10,7 @@ import yachts from "@/assets/images/projects/yachts.webp";
 
 import TusLogo from "/src/assets/images/Company Logo/TUs.png";
 import ilampLogo from "/src/assets/images/Company Logo/ilamp.svg";
-import personalLogo from "@/assets/images/Company Logo/marco-logo-black.svg";
+import personalLogo from "@/assets/images/Company Logo/marco-white.png";
 
 const projects = [
   {
