@@ -40,7 +40,7 @@ const ProjectModal = ({ project, onClose }) => {
               {project.category}
             </p>
 
-            <h1 className="text-6xl font-bold text-white mt-3">
+            <h1 className="md:text-6xl text-2xl font-bold text-white mt-3">
               {project.title}
             </h1>
           </div>
@@ -58,7 +58,7 @@ const ProjectModal = ({ project, onClose }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="rounded-3xl w-full h-[600px] object-cover"
+          className="rounded-3xl w-full md:h-[600px] h-[200px] object-cover"
         />
 
         {/* Stats */}
@@ -66,14 +66,18 @@ const ProjectModal = ({ project, onClose }) => {
         <div className="my-14">
           <p className="text-white uppercase">Powered By</p>
 
-          {project.powered ? (
+          {project.poweredBlack ? (
+            <img
+              src={project.poweredBlack}
+              alt={`${project.title} powered by`}
+              className="h-10 mt-3 object-contain"
+            />
+          ) : (
             <img
               src={project.powered}
               alt={`${project.title} powered by`}
               className="h-10 mt-3 object-contain"
             />
-          ) : (
-            <h3 className="text-white text-xl mt-2">—</h3>
           )}
         </div>
 

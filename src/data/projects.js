@@ -12,6 +12,7 @@ import prtOffice from "@/assets/images/projects/prtOffice.webp";
 import TusLogo from "/src/assets/images/Company Logo/TUs.png";
 import ilampLogo from "/src/assets/images/Company Logo/ilamp.svg";
 import personalLogo from "@/assets/images/Company Logo/marco-white.png";
+import personalBlackLogo from "@/assets/images/Company Logo/marco-logo-black.svg";
 
 const projects = [
   {
@@ -23,7 +24,9 @@ const projects = [
     type: "WordPress",
     image: waterFirst,
     liveUrl: "https://water-first.net/",
-    powered: personalLogo,
+    powered: personalBlackLogo,
+    poweredBlack: personalLogo,
+
     poweredAlt: "Marco Talaat",
     featured: true,
 
@@ -254,7 +257,8 @@ const projects = [
     type: "WordPress",
     image: prtOffice,
     liveUrl: "https://prt-office.com/",
-    powered: personalLogo,
+    powered: personalBlackLogo,
+    poweredBlack: personalLogo,
     poweredAlt: "Marco Talaat",
     featured: true,
 

@@ -13,7 +13,7 @@ const ContactHero = () => {
         className="
           relative
           mx-auto
-          min-h-[480px] sm:min-h-[440px] md:h-[460px]
+          min-h-[200px] sm:min-h-[440px] md:h-[460px]
           max-w-7xl
           overflow-hidden
           rounded-[24px] md:rounded-[32px]
