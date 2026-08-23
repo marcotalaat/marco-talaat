@@ -7,6 +7,7 @@ import lacosta from "@/assets/images/projects/lacosta.webp";
 import universityFinder from "@/assets/images/projects/university-finder.webp";
 import waterFirst from "@/assets/images/projects/water-first.webp";
 import yachts from "@/assets/images/projects/yachts.webp";
+import prtOffice from "@/assets/images/projects/prtOffice.webp";
 
 import TusLogo from "/src/assets/images/Company Logo/TUs.png";
 import ilampLogo from "/src/assets/images/Company Logo/ilamp.svg";
@@ -84,39 +85,6 @@ const projects = [
       "Dynamic Live Broadcast Display",
       "Custom Admin Content Management",
       "Responsive Design",
-    ],
-  },
-  {
-    id: 3,
-    title: "Chicks 4 Kids",
-    slug: "chicks-4-kids",
-    subtitle: "Pediatric Healthcare & Pharmaceutical Website",
-    category: "Corporate Website",
-    type: "WordPress",
-    image: chicks,
-    liveUrl: "http://chicks4kids.com/",
-    powered: ilampLogo,
-    poweredAlt: "The University of Success",
-    featured: false,
-
-    overview:
-      "A modern corporate website developed for a pediatric pharmaceutical company, showcasing children's healthcare products through a playful, Disney-inspired design. Products are organized into intuitive categories, making it easy for parents and healthcare professionals to explore medications while maintaining a friendly and engaging user experience.",
-
-    technologies: [
-      "WordPress",
-      "PHP",
-      "JavaScript",
-      "ACF Pro",
-      "Custom Post Types",
-    ],
-
-    features: [
-      "Product Catalog",
-      "Category-Based Product Organization",
-      "Disney-Inspired UI Design",
-      "Responsive Layout",
-      "Custom Admin Management",
-      "Optimized Product Pages",
     ],
   },
   {
@@ -239,37 +207,80 @@ const projects = [
     ],
   },
   {
-    id: 7,
-    title: "University Finder",
-    slug: "university-finder",
-    subtitle: "University Information & Student Resources Platform",
-    category: "Educational Website",
+    id: 9,
+    title: "RSY Institute",
+    slug: "rsy-institute",
+    subtitle: "Maritime Academy Admission & Scholarship Platform",
+    category: "Education Management System",
     type: "WordPress",
-    image: universityFinder,
-    liveUrl: "https://universityfinder.net/",
+    image: yachts,
+    liveUrl: "https://rsyinstitute.com/",
     powered: TusLogo,
     poweredAlt: "The University of Success",
-    featured: false,
+    featured: true,
 
     overview:
-      "A content-driven university website designed to provide prospective students with comprehensive information about academic programs, university services, departments, and the institution's team. The platform serves as the university's central information hub with an organized blog and easy-to-navigate content structure.",
+      "A custom admission platform developed for a maritime academy, enabling administrators to build and manage application forms without developer assistance. The system includes a dynamic form builder with configurable validation rules, scholarship application tracking, an eCommerce module, and a student portal where applicants can monitor the status of their submissions.",
 
     technologies: [
       "WordPress",
       "PHP",
       "JavaScript",
+      "AJAX",
+      "WooCommerce",
       "ACF Pro",
-      "Custom Post Types",
+      "Custom Form Builder",
+      "Custom User Roles",
     ],
 
     features: [
-      "University Blog",
-      "Academic Programs",
-      "University Services",
-      "Faculty & Team Pages",
-      "Category-Based Content",
+      "Dynamic Form Builder",
+      "Custom Validation Rules",
+      "Scholarship Applications",
+      "Student Dashboard",
+      "Application Tracking",
+      "Online Store",
+      "Role-Based Management",
       "Responsive Design",
-      "Custom Admin Management",
+      "Custom Admin Panel",
+    ],
+  },
+  {
+    id: 10,
+    title: "PRT Office",
+    slug: "prt-office",
+    subtitle: "Medical E-Commerce, News & Career Platform",
+    category: "E-Commerce & Content Platform",
+    type: "WordPress",
+    image: prtOffice,
+    liveUrl: "https://prt-office.com/",
+    powered: personalLogo,
+    poweredAlt: "Marco Talaat",
+    featured: true,
+
+    overview:
+      "A custom-built digital platform for PRT Office combining a medical e-commerce store with a content-driven website. The platform brings together medical product sales, company news, educational content, career opportunities, and blog publishing into a unified and scalable WordPress experience.",
+
+    technologies: [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "JavaScript",
+      "AJAX",
+      "Custom Post Types",
+      "ACF",
+      "Custom Taxonomies",
+    ],
+
+    features: [
+      "Medical Product E-Commerce",
+      "Product Catalog & Management",
+      "Blog & Articles",
+      "Company News",
+      "Career Opportunities",
+      "Custom Content Management",
+      "Product Categorization & Filtering",
+      "Responsive User Experience",
     ],
   },
   {
@@ -309,42 +320,70 @@ const projects = [
     ],
   },
   {
-    id: 9,
-    title: "RSY Institute",
-    slug: "rsy-institute",
-    subtitle: "Maritime Academy Admission & Scholarship Platform",
-    category: "Education Management System",
+    id: 7,
+    title: "University Finder",
+    slug: "university-finder",
+    subtitle: "University Information & Student Resources Platform",
+    category: "Educational Website",
     type: "WordPress",
-    image: yachts,
-    liveUrl: "https://rsyinstitute.com/",
+    image: universityFinder,
+    liveUrl: "https://universityfinder.net/",
     powered: TusLogo,
     poweredAlt: "The University of Success",
-    featured: true,
+    featured: false,
 
     overview:
-      "A custom admission platform developed for a maritime academy, enabling administrators to build and manage application forms without developer assistance. The system includes a dynamic form builder with configurable validation rules, scholarship application tracking, an eCommerce module, and a student portal where applicants can monitor the status of their submissions.",
+      "A content-driven university website designed to provide prospective students with comprehensive information about academic programs, university services, departments, and the institution's team. The platform serves as the university's central information hub with an organized blog and easy-to-navigate content structure.",
 
     technologies: [
       "WordPress",
       "PHP",
       "JavaScript",
-      "AJAX",
-      "WooCommerce",
       "ACF Pro",
-      "Custom Form Builder",
-      "Custom User Roles",
+      "Custom Post Types",
     ],
 
     features: [
-      "Dynamic Form Builder",
-      "Custom Validation Rules",
-      "Scholarship Applications",
-      "Student Dashboard",
-      "Application Tracking",
-      "Online Store",
-      "Role-Based Management",
+      "University Blog",
+      "Academic Programs",
+      "University Services",
+      "Faculty & Team Pages",
+      "Category-Based Content",
       "Responsive Design",
-      "Custom Admin Panel",
+      "Custom Admin Management",
+    ],
+  },
+  {
+    id: 3,
+    title: "Chicks 4 Kids",
+    slug: "chicks-4-kids",
+    subtitle: "Pediatric Healthcare & Pharmaceutical Website",
+    category: "Corporate Website",
+    type: "WordPress",
+    image: chicks,
+    liveUrl: "http://chicks4kids.com/",
+    powered: ilampLogo,
+    poweredAlt: "The University of Success",
+    featured: false,
+
+    overview:
+      "A modern corporate website developed for a pediatric pharmaceutical company, showcasing children's healthcare products through a playful, Disney-inspired design. Products are organized into intuitive categories, making it easy for parents and healthcare professionals to explore medications while maintaining a friendly and engaging user experience.",
+
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "ACF Pro",
+      "Custom Post Types",
+    ],
+
+    features: [
+      "Product Catalog",
+      "Category-Based Product Organization",
+      "Disney-Inspired UI Design",
+      "Responsive Layout",
+      "Custom Admin Management",
+      "Optimized Product Pages",
     ],
   },
 ];
