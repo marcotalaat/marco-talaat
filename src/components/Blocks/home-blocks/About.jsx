@@ -1,5 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
-
 import AboutImage from "../../../assets/images/about-me.svg";
 import Button from "@/components/ui/button";
 
@@ -10,7 +8,7 @@ const HomeAbout = () => {
         {/* Left Content */}
         <div className="space-y-6 text-center md:text-left">
           <h2 className="text-5xl md:text-6xl font-extrabold text-neutral-900">
-            <SplittingText text="About Me" aria-hidden="true" />
+            About Me
           </h2>
 
           <p className="text-neutral-700 text-lg md:text-xl leading-relaxed max-w-xl">

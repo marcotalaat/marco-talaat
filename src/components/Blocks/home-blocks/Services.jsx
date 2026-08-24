@@ -1,4 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 import ServicesBkg from "../../../assets/images/texture/PK_PAPER_12.webp";
 import PaperTexture from "../../../assets/images/texture/PK_PAPER_12.webp";
 
@@ -117,9 +116,7 @@ const HomeServices = () => {
     <section className="relative mx-auto max-w-7xl px-6 py-28 overflow-hidden">
       {/* Heading */}
       <div className="text-center mb-20">
-        <h2 className="text-5xl md:text-7xl font-black mb-6">
-          <SplittingText text="Services" aria-hidden="true" />
-        </h2>
+        <h2 className="text-5xl md:text-7xl font-black mb-6">Services</h2>
       </div>
 
       {/* Cards */}

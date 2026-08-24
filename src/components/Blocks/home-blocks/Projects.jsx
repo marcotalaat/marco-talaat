@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 import { ArrowUpRight, Globe, Eye } from "lucide-react";
 import projects from "@/data/projects";
 import ProjectModal from "../portfolio-blocks/ProjectModal";
@@ -14,9 +13,7 @@ const HomeProjects = () => {
         <div className="max-w-7xl px-6 mx-auto">
           {/* Heading */}
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-7xl font-black mb-6">
-              <SplittingText text="My Works" aria-hidden="true" />
-            </h2>
+            <h2 className="text-5xl md:text-7xl font-black mb-6">My Works</h2>
           </div>
 
           {/* Projects Grid */}

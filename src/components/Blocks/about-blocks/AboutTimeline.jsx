@@ -1,4 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 import { Briefcase } from "lucide-react";
 
 // Placeholder history — swap in real roles, companies, and dates.
@@ -35,7 +34,7 @@ const AboutTimeline = () => {
         </span>
 
         <h2 className="text-4xl md:text-5xl font-bold mt-4 text-neutral-900">
-          <SplittingText text="Experience" aria-hidden="true" />
+          Experience
         </h2>
       </div>
 

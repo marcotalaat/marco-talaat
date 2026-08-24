@@ -1,4 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 import { Code2, Workflow, Layers, Globe2, Quote } from "lucide-react";
 import AboutImage from "@/assets/images/about-me.svg";
 
@@ -49,7 +48,7 @@ const AboutStory = () => {
           </span>
 
           <h2 className="text-4xl md:text-5xl font-bold text-neutral-900">
-            <SplittingText text="From Curiosity to Code" aria-hidden="true" />
+            From Curiosity to Code
           </h2>
 
           <div className="space-y-4 text-neutral-700 text-lg leading-relaxed max-w-xl mx-auto md:mx-0">

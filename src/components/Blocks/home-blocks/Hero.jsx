@@ -1,6 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
-import { TypingText } from "@/components/animate-ui/primitives/texts/typing";
-
 import {
   FaPhp,
   FaWordpress,
@@ -33,20 +30,15 @@ const HomeHero = () => {
     <section className="relative overflow-hidden">
       {/* HERO */}
       <div className="max-w-7xl mx-auto px-6 pt-32 pb-28 flex flex-col items-center justify-center text-center space-y-8">
-        <SplittingText
-          text="Hi"
-          aria-hidden="true"
-          className="text-xl font-medium text-neutral-600"
-        />
+        <span className="text-xl font-medium text-neutral-600">Hi</span>
 
         <h1 className="text-6xl md:text-7xl font-extrabold text-neutral-900">
-          <SplittingText text="I'm Marco Talaat" aria-hidden="true" />
+          I'm Marco Talaat
         </h1>
 
-        <TypingText
-          text="PHP - WordPress Developer"
-          className="text-2xl md:text-3xl font-semibold text-primary"
-        />
+        <h2 className="text-2xl md:text-3xl font-semibold text-primary">
+          PHP - WordPress Developer
+        </h2>
 
         <p className="max-w-3xl text-neutral-700 text-lg md:text-xl leading-relaxed">
           I build powerful, scalable, and conversion-focused web solutions using

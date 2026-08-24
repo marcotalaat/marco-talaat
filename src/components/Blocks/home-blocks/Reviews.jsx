@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 import { Quote, ChevronLeft, ChevronRight, Star } from "lucide-react";
 import ReviewsBkg from "../../../assets/images/texture/review-card.webp";
 import reviews from "@/data/reviews";
@@ -24,7 +23,7 @@ const HomeReviews = () => {
           </span>
 
           <h2 className="text-5xl md:text-6xl font-black mt-4 mb-6 text-primary">
-            <SplittingText text="Reviews" aria-hidden="true" />
+            Reviews
           </h2>
 
           <p className="text-neutral-700 text-lg leading-relaxed max-w-md mx-auto lg:mx-0 mb-10">

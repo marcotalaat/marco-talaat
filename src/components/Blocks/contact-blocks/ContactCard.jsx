@@ -1,7 +1,6 @@
 import { Mail, Phone, Linkedin } from "lucide-react";
 import ContactPaper from "@/assets/images/texture/contact-paper.webp";
 import ContactForm from "./ContactForm";
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
 
 const ContactCard = () => {
   return (
@@ -11,9 +10,7 @@ const ContactCard = () => {
           Get In Touch
         </span>
 
-        <h2 className="text-5xl md:text-7xl font-black mt-4">
-          <SplittingText text="Contact Us" aria-hidden="true" />
-        </h2>
+        <h2 className="text-5xl md:text-7xl font-black mt-4">Contact Us</h2>
       </div>
       <div className="grid lg:grid-cols-12 gap-8 mt-20">
         {/* Contact Card */}

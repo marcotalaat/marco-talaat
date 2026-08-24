@@ -1,5 +1,3 @@
-import { SplittingText } from "@/components/animate-ui/primitives/texts/splitting";
-
 import {
   FaPhp,
   FaWordpress,
@@ -126,7 +124,7 @@ const AboutSkills = () => {
         </span>
 
         <h2 className="text-4xl md:text-5xl font-bold mt-4 text-neutral-900">
-          <SplittingText text="Skills & Tools" aria-hidden="true" />
+          Skills & Tools
         </h2>
       </div>
 
