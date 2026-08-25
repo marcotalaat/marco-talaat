@@ -8,7 +8,7 @@ import universityFinder from "@/assets/images/projects/university-finder.webp";
 import waterFirst from "@/assets/images/projects/water-first.webp";
 import yachts from "@/assets/images/projects/yachts.webp";
 import prtOffice from "@/assets/images/projects/prtOffice.webp";
-import katameros from "@/assets/images/projects/katameros.webp";
+//import katameros from "@/assets/images/projects/katameros.webp";
 
 import TusLogo from "/src/assets/images/Company Logo/TUs.png";
 import ilampLogo from "/src/assets/images/Company Logo/ilamp.svg";
@@ -357,7 +357,7 @@ const projects = [
       "Custom Admin Management",
     ],
   },
-  {
+  /*{
     id: 11,
     title: "Katameros",
     slug: "katameros",
@@ -390,7 +390,7 @@ const projects = [
       "Responsive Design",
       "Organized Reading Content",
     ],
-  },
+  },*/
   {
     id: 3,
     title: "Chicks 4 Kids",
