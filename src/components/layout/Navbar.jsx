@@ -154,17 +154,6 @@ const Navbar = () => {
             size={18}
             className="text-white group-hover:text-primary transition-colors"
           />
-          <span
-            className="
-              absolute -top-1 -right-1
-              w-4 h-4 rounded-full
-              bg-primary
-              flex items-center justify-center
-              border border-black
-            "
-          >
-            <Sparkles size={9} className="text-black" />
-          </span>
         </button>
       </div>
 

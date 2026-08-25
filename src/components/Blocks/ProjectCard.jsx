@@ -154,9 +154,7 @@ const ProjectCard = ({ project, onSelect, source = "home" }) => {
               {project.title}
             </h3>
 
-            <p className="text-sm text-gray-400">
-              {project.category} • {project.poweredAlt}
-            </p>
+            <p className="text-sm text-gray-400">{project.category}</p>
           </div>
         </div>
       </div>

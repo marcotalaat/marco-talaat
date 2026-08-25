@@ -49,18 +49,39 @@ const HomeHero = () => {
       </div>
 
       {/* SKILLS MARQUEE */}
-      <div className="relative py-8 mb-28 border-y border-neutral-200 overflow-hidden">
+      <div
+        className="relative py-8 mb-28 border-y border-neutral-200 overflow-hidden"
+        aria-hidden="true"
+      >
         <div className="marquee flex gap-12 items-center">
-          {[...skills, ...skills].map((skill, index) => {
+          {skills.map((skill) => {
             const Icon = skill.icon;
 
             return (
               <div
-                key={`${skill.name}-${index}`}
+                key={skill.name}
                 className="flex items-center gap-3 text-neutral-700 shrink-0"
               >
-                {/* Decorative icon - skill name provides the accessible text */}
-                <span className="text-3xl text-primary" aria-hidden="true">
+                <span className="text-3xl text-primary">
+                  <Icon />
+                </span>
+
+                <span className="text-lg font-medium whitespace-nowrap">
+                  {skill.name}
+                </span>
+              </div>
+            );
+          })}
+
+          {skills.map((skill) => {
+            const Icon = skill.icon;
+
+            return (
+              <div
+                key={`duplicate-${skill.name}`}
+                className="flex items-center gap-3 text-neutral-700 shrink-0"
+              >
+                <span className="text-3xl text-primary">
                   <Icon />
                 </span>
 

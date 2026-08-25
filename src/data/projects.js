@@ -8,6 +8,7 @@ import universityFinder from "@/assets/images/projects/university-finder.webp";
 import waterFirst from "@/assets/images/projects/water-first.webp";
 import yachts from "@/assets/images/projects/yachts.webp";
 import prtOffice from "@/assets/images/projects/prtOffice.webp";
+import katameros from "@/assets/images/projects/katameros.webp";
 
 import TusLogo from "/src/assets/images/Company Logo/TUs.png";
 import ilampLogo from "/src/assets/images/Company Logo/ilamp.svg";
@@ -257,8 +258,7 @@ const projects = [
     type: "WordPress",
     image: prtOffice,
     liveUrl: "https://prt-office.com/",
-    powered: personalBlackLogo,
-    poweredBlack: personalLogo,
+    powered: ilampLogo,
     poweredAlt: "Marco Talaat",
     featured: true,
 
@@ -355,6 +355,40 @@ const projects = [
       "Category-Based Content",
       "Responsive Design",
       "Custom Admin Management",
+    ],
+  },
+  {
+    id: 11,
+    title: "Katameros",
+    slug: "katameros",
+    subtitle: "Christian Readings & Informative Website",
+    category: "Content & Religious Website",
+    type: "WordPress",
+    image: katameros,
+    liveUrl: "https://new.katameros.bible/",
+    powered: ilampLogo,
+    poweredAlt: "The University of Success",
+    featured: false,
+
+    overview:
+      "A bilingual Christian website developed to provide accessible readings and informative religious content. The platform organizes biblical readings and educational resources in a clear and user-friendly interface, with support for both English and Dutch languages to serve a wider audience.",
+
+    technologies: [
+      "WordPress",
+      "PHP",
+      "JavaScript",
+      "ACF Pro",
+      "Custom Post Types",
+      "Multilingual Website",
+    ],
+
+    features: [
+      "Christian Readings",
+      "Informative Religious Content",
+      "English & Dutch Languages",
+      "Content Management System",
+      "Responsive Design",
+      "Organized Reading Content",
     ],
   },
   {
