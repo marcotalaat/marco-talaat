@@ -1,10 +1,6 @@
 import ContactPaper from "@/assets/images/texture/contact-paper.webp";
 
-const highlights = [
-  "20+ Projects Completed",
-  "WordPress & React",
-  "Custom-Built Systems",
-];
+const highlights = ["WordPress & React", "Custom-Built Systems"];
 
 const PortfolioHero = () => {
   return (

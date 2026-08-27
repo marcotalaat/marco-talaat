@@ -29,14 +29,14 @@ const HomeHero = () => {
   return (
     <section className="relative overflow-hidden">
       {/* HERO */}
-      <div className="max-w-7xl mx-auto px-6 pt-32 pb-28 flex flex-col items-center justify-center text-center space-y-8">
+      <div className="max-w-7xl mx-auto px-6 pt-32 pb-14 md:pb-28 flex flex-col items-center justify-center text-center space-y-4 md:space-y-8">
         <span className="text-xl font-medium text-neutral-600">Hi</span>
 
-        <h1 className="text-6xl md:text-7xl font-extrabold text-neutral-900">
+        <h1 className="text-4xl md:text-7xl font-extrabold text-neutral-900">
           I'm Marco Talaat
         </h1>
 
-        <h2 className="text-2xl md:text-3xl font-semibold text-primary">
+        <h2 className="text-xl md:text-3xl font-semibold text-primary">
           PHP - WordPress Developer
         </h2>
 
@@ -50,7 +50,7 @@ const HomeHero = () => {
 
       {/* SKILLS MARQUEE */}
       <div
-        className="relative py-8 mb-28 border-y border-neutral-200 overflow-hidden"
+        className="relative py-8 mb-14 md:mb-28 border-y border-neutral-200 overflow-hidden"
         aria-hidden="true"
       >
         <div className="marquee flex gap-12 items-center">
